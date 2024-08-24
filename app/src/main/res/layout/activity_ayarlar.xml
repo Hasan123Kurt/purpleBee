@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AyarlarActivity">
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/ayarlar_toolbar"></include>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profil_resmi_ayarlar"
+        android:layout_below="@id/ayarlar_toolbar"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/yeni_person"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/Kullanici_adi_ayarla"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxLength="20"
+        android:layout_below="@id/profil_resmi_ayarlar"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:hint="User Name"
+        android:drawableStart="@drawable/ic_person_pin_purple"
+        android:textStyle="bold"
+        android:background="@drawable/girdiler"
+        android:padding="4dp"
+        />
+    <EditText
+        android:id="@+id/Kullanici_durumu_ayarla"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/Kullanici_adi_ayarla"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:maxLength="55"
+        android:hint="User Status"
+        android:drawableStart="@drawable/ic_event_purple"
+        android:textStyle="bold"
+        android:background="@drawable/girdiler"
+        android:padding="4dp"
+        />
+    <Button
+        android:id="@+id/ayarlama_buttonu"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/Kullanici_durumu_ayarla"
+        android:inputType="textMultiLine"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="Update"
+        android:drawableStart="@drawable/ic_update_gray"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:background="@drawable/butonlar"
+        android:padding="4dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdc3c7"
+    tools:context=".QuizActivity">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/bee"
+        android:src="@drawable/bee_revize"
+        android:layout_alignParentStart="true"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/geri"
+        android:layout_below="@id/bee">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/test1"
+                android:background="#00f21c"
+                android:layout_marginLeft="40dp"
+
+                android:layout_alignParentTop="false"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+
+                android:text="Test 1"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/test2"
+                android:layout_below="@id/test1"
+                android:layout_marginRight="40dp"
+                android:background="#00dd2c"
+                android:layout_marginTop="20dp"
+                android:text="test 2"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:text="test 3"
+                android:background="#0fb500"
+                android:id="@+id/test3"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="#f0f400"
+                android:layout_marginTop="20dp"
+                android:text="test 4"
+                android:id="@+id/test4"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#f0f400"
+                android:text="test 5"
+                android:id="@+id/test5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#ffd700"
+                android:text="test 6"
+                android:id="@+id/test6"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#ff0000"
+                android:text="test 7"
+                android:id="@+id/test7"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#ee0000"
+                android:text="test 8"
+                android:id="@+id/test8"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#cd0000"
+                android:text="test 9"
+                android:id="@+id/test9"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/geri"
+        android:background="#9c9c9c"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:text="Out"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/bee_yeni_efekt"
+        android:duration="300"/>
+    <item android:drawable="@drawable/bee_yeni_efekt2"
+        android:duration="300"/>
+    <item android:drawable="@drawable/bee_yeni_efekt4"
+        android:duration="300"/>
+    <item android:drawable="@drawable/bee_yeni_efekt6"
+        android:duration="300"/>
+    <item android:drawable="@drawable/bee_yeni_efekt3"
+        android:duration="300"/>
+
+</animation-list>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "748310419860",
+    "firebase_url": "https://talktofriends-923c2.firebaseio.com",
+    "project_id": "talktofriends-923c2",
+    "storage_bucket": "talktofriends-923c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748310419860:android:807947777cd239a43bd781",
+        "android_client_info": {
+          "package_name": "com.mygame.talktofriends"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748310419860-hb165a4ot8vptv3e6tognclfd0vdv86u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mygame.talktofriends",
+            "certificate_hash": "0e751be6d133a6f8f6e3b2fb3508e21933efe0d7"
+          }
+        },
+        {
+          "client_id": "748310419860-8k2c7ltlbc64nhgf7347dbbn97a099k5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYgYprtowl8lJRR-XIz4DjupmvETdD24c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748310419860-8k2c7ltlbc64nhgf7347dbbn97a099k5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

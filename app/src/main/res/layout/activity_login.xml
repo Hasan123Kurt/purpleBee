@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/giris_resmi"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/newsletter"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"/>
+        <EditText
+            android:id="@+id/giris_email"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/giris_resmi"
+            android:layout_alignParentStart="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/girdiler"
+            android:hint=" e-mail address"
+            android:inputType="textEmailAddress"
+            android:textSize="30sp"
+            android:padding="4dp"
+            android:visibility="visible"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            />
+        <EditText
+            android:id="@+id/giris_password"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/giris_email"
+            android:layout_alignParentStart="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/girdiler"
+            android:hint=" password"
+            android:inputType="textPassword"
+            android:textSize="30sp"
+            android:padding="4dp"
+            android:visibility="visible"
+            android:drawableStart="@drawable/lock"
+            />
+        <Button
+            android:id="@+id/giris_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/butonlar"
+            android:padding="8dp"
+            android:text="Login"
+            android:visibility="visible"
+            android:layout_below="@id/giris_password"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:textColor="@color/cardview_light_background"/>
+
+        <TextView
+            android:id="@+id/yeni_hesapalma"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_below="@id/giris_button"
+            android:layout_alignParentStart="true"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:text="Get account"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:padding="4dp"
+
+            />
+        <TextView
+            android:id="@+id/kullanarak_giris"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+
+            android:layout_below="@id/yeni_hesapalma"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0000cd"
+            android:text="or"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+
+            />
+        <Button
+            android:id="@+id/telefonla_giris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kullanarak_giris"
+            android:background="@drawable/butonlar"
+            android:padding="8dp"
+            android:text="Login By Phone"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="36dp"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/cardview_light_background"
+            android:drawableBottom="@drawable/ic_phonelink_ring_black_24dp"/>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

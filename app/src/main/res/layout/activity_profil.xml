@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".ProfilActivity">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profil_resmi_ziyaret"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_person1"
+        android:layout_width="210dp"
+        android:layout_height="210dp" />
+    
+    <TextView
+        android:id="@+id/kullanici_adi_ziyaret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@id/profil_resmi_ziyaret"
+        android:textSize="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="28dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+
+        android:text="User name"/>
+    <TextView
+        android:id="@+id/profil_durumu_ziyaret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@id/kullanici_adi_ziyaret"
+        android:textSize="20dp"
+        android:layout_marginRight="28dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="28dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+
+        android:text="User status"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mesaj_gonderme_talebi_buttonu"
+        android:layout_below="@+id/profil_durumu_ziyaret"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="17dp"
+
+        android:background="@drawable/butonlar"
+        android:text="Send message request"
+        android:textColor="#FFFF"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mesaj_degerlendirme_talebi_buttonu"
+        android:layout_below="@+id/mesaj_gonderme_talebi_buttonu"
+        android:textSize="17dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/butonlar"
+        android:text="Reject message request"
+        android:textColor="#FFFF"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

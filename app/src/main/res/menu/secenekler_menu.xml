@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ana_arkadasBul"
+        android:title="Global"
+        app:showAsAction="never">
+
+    </item>
+<item
+    android:id="@+id/ana_serach"
+    android:title="Find Friend"
+    app:showAsAction="never">
+
+</item>
+
+    <item
+
+        android:id="@+id/ana_grup_olustur"
+        android:title="Create Group"
+        app:showAsAction="never">
+
+    </item>
+    <item android:id="@+id/rekabetci"
+        android:title="Competitive Test"
+        app:showAsAction="never">
+
+    </item>
+    <item
+
+        android:id="@+id/quiz"
+        android:title="Quiz"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/ayarlar"
+        android:title="Profile"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/cikisYap"
+        android:title="Exit"
+        app:showAsAction="never">
+
+    </item>
+
+
+</menu>

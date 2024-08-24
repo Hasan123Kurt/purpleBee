@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/yeni_person"
+        android:layout_marginTop="10dp"
+        android:id="@+id/mesaj_profil_resmi"
+        />
+
+    <TextView
+        android:id="@+id/alici_mesaj_metni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/mesaj_profil_resmi"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/alici_mesajlari_layout"
+        android:text="Alici Mesajları"
+        android:padding="8dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginLeft="4dp"/>
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/mesaj_gonderen_image_view"
+        />
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="12dp"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/mesaj_profil_resmi"
+        android:scaleType="centerCrop"
+        android:id="@+id/mesaj_alan_image_view"
+        />
+
+    <TextView
+        android:id="@+id/gonderen_mesaj_metni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_alignParentTop="false"
+        android:background="@drawable/gonderen_mesajlar_layout"
+        android:layout_alignTop="@+id/alici_mesaj_metni"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/cardview_dark_background"
+        android:text="Gönderen Mesajları"
+        android:padding="8dp"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>
